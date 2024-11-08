@@ -3,11 +3,11 @@
 set -e
 
 export BASE_DIR=$(pwd)
-export SECRETS_DIR=$(pwd)/../secrets/
+export SECRETS_DIR=$(pwd)/secrets/
 export GCS_BUCKET_NAME="data-service-wenyu"
 export GCP_PROJECT="data-service-account"
 export GCP_ZONE="us-central1-a"
-export GOOGLE_APPLICATION_CREDENTIALS="/secrets/data-service-account.json"
+export GOOGLE_APPLICATION_CREDENTIALS="./secrets/data-service-account.json"
 
 
 echo "Building image"
