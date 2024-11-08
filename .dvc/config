@@ -2,4 +2,3 @@
     remote = cheese_dataset
 ['remote "cheese_dataset"']
     url = gs://data-service-wenyu/dvc_store
-    credentialpath = /app/secrets/data-service-account.json
